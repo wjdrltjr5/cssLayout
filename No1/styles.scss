@@ -12,9 +12,22 @@ header{
     background-color:$white;
     width: 33%;
     height: 100%;
-    padding: 75px;
+    padding: 190px;
+    padding: 10vh 0 72px 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     h1{
         color: $red;
-        font-size: 75px;
+        font-size: 85px;
+        width: 50%;
+    }
+    h3{
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    p,h3{
+        width: 80%;
     }
 }
